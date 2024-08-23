@@ -1,0 +1,124 @@
+header {
+    background-image: url("texture.jpg");
+    background-size: 750px 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+#name {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #241608;
+}
+#age {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #4e2b08;
+}
+a {
+    color: #4e2b08;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff5ee;
+}
+section {
+    background-color: #fff2f4;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.title {
+    font-size: 30px;
+    color: #4e2b08;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background-color: #fff8f9;
+    padding: 10px 15px;
+    margin: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.3s ease transform;
+}
+li:hover {
+    transform: translateX(15px);
+}
+img {
+    height: 210px;
+    width: 150px;
+    padding-right: 30px;
+}
+#family {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 100%;
+}
+#fav-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.container {
+    margin: 8px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.fav {
+    margin: 8px;
+    padding: 0px 5px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.question {
+    text-transform: uppercase;
+    color: #ff8da1;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+footer {
+    background-color: #664c51;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff2f4;
+}
+iframe {
+    align-self: center;
+    width: 85%;
+    margin: 20px;
+}
